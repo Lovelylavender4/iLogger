@@ -48,6 +48,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - run: |
+          mkdir artifact/
+
       - if: ${{ matrix.header-only == true }}
         uses: actions/download-artifact@v4
         with:
