@@ -5,6 +5,7 @@ int main()
 {
 
     std::cout << "cxxstd: " << __CURRENT_CXXSTD_VERSION__ << "\n";
+    std::cout << "cxxstd: " << __CURRENT_CXXSTD_VERSION__ << "\n";
 
     return 0;
 }
